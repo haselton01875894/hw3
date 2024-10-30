@@ -1,0 +1,29 @@
+td{
+	display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    word-wrap: break-word;
+}
+
+table{
+   overflow: scroll;
+   height:75%;
+   width: 75%;
+   display:block;
+   table-layout: fixed ;
+}
+
+td:nth-child(1){
+	background-color: black;
+	color: white;
+}
+tr:nth-child(1){
+	background-color: black;
+	color: white;
+	  table-layout: fixed;
+
+}
+
+#errormsg{
+	color :red;
+}
